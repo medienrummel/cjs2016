@@ -1,4 +1,3 @@
-// Basic slider (vanilla, autoplay, arrows, dots, swipe)
 (function () {
     const slides = document.getElementById('slides');
     if (!slides) return;
@@ -31,12 +30,10 @@
     start();
 
 
-    // Pause on hover (desktop)
     slides.addEventListener('mouseenter', stop);
     slides.addEventListener('mouseleave', start);
 
 
-    // Touch swipe
     let sx = 0, dx = 0;
     slides.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; dx = 0; stop() }, { passive: true });
     slides.addEventListener('touchmove', (e) => { dx = e.touches[0].clientX - sx }, { passive: true });
