@@ -1,86 +1,106 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CJ's 2016 SARL</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/main.js"></script>
-</head>
-<body>
-  <!-- Vertical Sidebar -->
-  <aside class="sidebar" aria-label="Seitennavigation">
-    <div class="brand">HOME</div>
-    <nav class="nav">
-      <a class="active" href="#home">HOME</a>
-      <a href="#sorten">SORTEN</a>
-      <a href="#whatson">WHAT'S ON</a>
-      <a href="#shop">SHOP</a>
-      <a href="#dennis">DENNIS</a>
-      <a href="#mix">MIX</a>
-    </nav>
-    <div class="social" aria-label="Social Links">
-      <a href="#" aria-label="Instagram">IG</a>
-      <a href="#" aria-label="Facebook">FB</a>
-      <a href="#" aria-label="YouTube">YT</a>
-    </div>
-  </aside>
-
-  <!-- Main / Hero with Slider -->
-  <main id="home" class="main" role="main">
-    <section class="hero" aria-roledescription="carousel" aria-label="Header Slider">
-      <div class="slides" id="slides" style="transform:translateX(0)">
-        <!-- Slide 1 -->
-        <article class="slide" aria-label="Slide 1">
-          <img src="hero1.jpg" alt="Energy Drink Can – Visual 1" />
-          <div class="overlay">
-            <div class="copy">
-              <div class="eyebrow">STYLISCH • FRUCHTIG • ANDERS</div>
-              <h1><span class="accent">entdecke</span><br/>28 BLACK Açaí</h1>
-              <p class="kicker">Premium Energy mit markantem Geschmack – für Nächte, die länger dauern.</p>
-            </div>
-          </div>
-        </article>
-        <!-- Slide 2 -->
-        <article class="slide" aria-label="Slide 2">
-          <img src="hero2.jpg" alt="Dennis hält Special Edition Dose" />
-          <div class="overlay">
-            <div class="copy">
-              <div class="eyebrow">SPECIAL EDITION</div>
-              <h1>28 BLACK × DENNIS SCHRÖDER</h1>
-              <p class="kicker">Limitierte Signatur – nur für kurze Zeit erhältlich.</p>
-            </div>
-          </div>
-        </article>
-        <!-- Slide 3 -->
-        <article class="slide" aria-label="Slide 3">
-          <img src="hero3.jpg" alt="Spritziger Frucht-Splash" />
-          <div class="overlay">
-            <div class="copy">
-              <div class="eyebrow">NEU</div>
-              <h1>Exotische Sorten. <span class="accent">Zero Sugar</span>.</h1>
-              <p class="kicker">Voller Geschmack bei null Zucker – probiere die neuen Mixes.</p>
-            </div>
-          </div>
-        </article>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CJ's 2016 SARL</title>
+    <!-- Styles ausgelagert -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Vertical Sidebar -->
+    <aside class="sidebar" aria-label="Seitennavigation">
+      <div class="brand">HOME</div>
+      <nav class="nav">
+        <a class="active" href="#home">HOME</a>
+        <a href="#sorten">SORTEN</a>
+        <a href="#whatson">WHAT'S ON</a>
+        <a href="#shop">SHOP</a>
+        <a href="#dennis">DENNIS</a>
+        <a href="#mix">MIX</a>
+      </nav>
+      <div class="social" aria-label="Social Links">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="#" aria-label="YouTube">YT</a>
       </div>
+    </aside>
 
-      <!-- Controls -->
-      <div class="ctrl">
-        <button class="btn" id="prev" aria-label="Vorheriger Slide">&#x2039;</button>
-        <button class="btn" id="next" aria-label="Nächster Slide">&#x203A;</button>
-      </div>
-      <div class="dots" id="dots" aria-hidden="true"></div>
-    </section>
+    <!-- Main / Hero with Slider -->
+    <main id="home" class="main" role="main">
+      <section
+        class="hero"
+        aria-roledescription="carousel"
+        aria-label="Header Slider"
+      >
+        <div class="slides" id="slides" style="transform: translateX(0)">
+          <!-- Slide 1 -->
+          <article class="slide" aria-label="Slide 1">
+            <img src="hero1.jpg" alt="Energy Drink Can – Visual 1" />
+            <div class="overlay">
+              <div class="copy">
+                <div class="eyebrow">STYLISCH • FRUCHTIG • ANDERS</div>
+                <h1><span class="accent">entdecke</span><br />28 BLACK Açaí</h1>
+                <p class="kicker">
+                  Premium Energy mit markantem Geschmack – für Nächte, die
+                  länger dauern.
+                </p>
+              </div>
+            </div>
+          </article>
+          <!-- Slide 2 -->
+          <article class="slide" aria-label="Slide 2">
+            <img src="hero2.jpg" alt="Dennis hält Special Edition Dose" />
+            <div class="overlay">
+              <div class="copy">
+                <div class="eyebrow">SPECIAL EDITION</div>
+                <h1>28 BLACK × DENNIS SCHRÖDER</h1>
+                <p class="kicker">
+                  Limitierte Signatur – nur für kurze Zeit erhältlich.
+                </p>
+              </div>
+            </div>
+          </article>
+          <!-- Slide 3 -->
+          <article class="slide" aria-label="Slide 3">
+            <img src="hero3.jpg" alt="Spritziger Frucht-Splash" />
+            <div class="overlay">
+              <div class="copy">
+                <div class="eyebrow">NEU</div>
+                <h1>
+                  Exotische Sorten. <span class="accent">Zero Sugar</span>.
+                </h1>
+                <p class="kicker">
+                  Voller Geschmack bei null Zucker – probiere die neuen Mixes.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
 
-    <!-- Footer language bar placeholder -->
-    <div class="footerbar">
-      <div class="lang">
-        <a href="#" class="active">DE</a>
-        <span>•</span>
-        <a href="#">EN</a>
+        <!-- Controls -->
+        <div class="ctrl">
+          <button class="btn" id="prev" aria-label="Vorheriger Slide">
+            &#x2039;
+          </button>
+          <button class="btn" id="next" aria-label="Nächster Slide">
+            &#x203A;
+          </button>
+        </div>
+        <div class="dots" id="dots" aria-hidden="true"></div>
+      </section>
+
+      <!-- Footer language bar placeholder -->
+      <div class="footerbar">
+        <div class="lang">
+          <a href="#" class="active">DE</a>
+          <span>•</span>
+          <a href="#">EN</a>
+        </div>
       </div>
-    </div>
-  </main>
-</body>
+    </main>
+
+    <!-- Skript ausgelagert -->
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
