@@ -25,7 +25,7 @@
     document.getElementById('prev').addEventListener('click', prev);
 
 
-    function start() { auto = setInterval(next, 6000) }
+    function start() { auto = setInterval(next, 4500) }
     function stop() { clearInterval(auto) }
     function restart() { stop(); start() }
     start();
